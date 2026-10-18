@@ -3790,6 +3790,8 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  opacity: 0.80;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -10917,4 +10919,11 @@ clip-path: path('M8 14.5s-6-4.2-6-8.5a3.5 3.5 0 0 1 6-2.5 3.5 3.5 0 0 1 6 2.5c0 
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #fffbff;
   --bs-gradient: none;
+}
+
+.btn-outline-cream:hover,
+.btn-outline-cream:focus-visible {
+  transform: scale(1.05);
+  color: #ede8ed !important;
+  text-decoration: none;
 }
